@@ -22,4 +22,6 @@ class homeController extends CI_Controller {
 	{
 		$this->load->view('homeView');
 	}
+
+	
 }

@@ -22,4 +22,9 @@ class installationController extends CI_Controller {
 	{
 		$this->template->load('template/installationTemplate','installation/index');
 	}
+
+	public function contact()
+	{
+		$this->template->load('template/installationTemplate','contact');
+	}
 }

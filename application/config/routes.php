@@ -50,15 +50,22 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |		my-controller/my-method	-> my_controller/my_method
 */
 $route['default_controller'] = 'homeController';
+
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
 // installation 
 $route['installation'] = 'installationController';
-
+$route['contact-installation'] = 'installationController/contact';
 // irrigation 
 $route['irrigation'] = 'irrigationController';
+$route['add-irrigation-product'] = 'irrigationController/call_add_product';
+$route['create-irrigation-product'] = 'irrigationController/create_product';
+$route['contact-irrigation'] = 'irrigationController/contact';
+
 
 // refrigeration 
 $route['refrigeration'] = 'refrigerationController';
+$route['contact-refrigeration'] = 'refrigerationController/contact';
+$route['service-refrigeration'] = 'refrigerationController/service';

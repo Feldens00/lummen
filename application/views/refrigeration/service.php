@@ -29,7 +29,7 @@ $(window).scroll(function(){ // função para pegar o movimento do scroll (barra
 </script>
 <div class="row">
   <div class="col-md-12">
-    <h1 style="margin-top:20px">Instalação</h1>
+    <h1 style="margin-top:20px">Serviços</h1>
   
      <div id="div1" class="col-md-12 divInf">
       <div style="margin-top:20px" class="col-md-3">

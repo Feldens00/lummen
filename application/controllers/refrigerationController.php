@@ -22,4 +22,12 @@ class refrigerationController extends CI_Controller {
 	{
 		$this->template->load('template/refrigerationTemplate','refrigeration/index');
 	}
+	public function contact()
+	{
+		$this->template->load('template/refrigerationTemplate','contact');
+	}
+	public function service()
+	{
+		$this->template->load('template/refrigerationTemplate','refrigeration/service');
+	}
 }

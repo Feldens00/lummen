@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
   <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css');?>">
   <script src="<?=base_url('assets/js/jquery.js');?>"></script>
   <script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
@@ -35,7 +36,7 @@
   }
   </style>
 </head>
-<body style="background-color: #696969;">
+<body style="font-family: 'Ubuntu Condensed', sans-serif; background-color: #696969;">
 
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
