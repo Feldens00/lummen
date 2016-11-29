@@ -18,6 +18,12 @@ class irrigationController extends CI_Controller {
 		$this->template->load('template/irrigationTemplate','contact');
 	}
 
+	public function service()
+	{
+		$this->template->load('template/irrigationTemplate','irrigation/service');
+	}
+
+
 	public function call_add_Product()
 	{	
 		$dados['formerror']= NULL;

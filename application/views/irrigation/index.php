@@ -31,11 +31,11 @@
 <div class="row">
   <div class="col-md-12">
     <h1>Irrigação</h1>
-    <p>Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile-first projects on the web.</p>
+    
        <?php foreach($products as $pd) { ?>
      <div id="mouse" class="col-md-4">
       <img src="<?=base_url($pd->url);?>" class="img-responsive " style="width:500px; height: 250px;" alt="Image">
-       <div id="comentario">
+       <div class="col-md-4" id="comentario">
          <h5><?=$pd->name_product;?></h5>
           <h5>Largura: <?=$pd->width;?> / Altura: <?=$pd->height;?></h5>
            <h5>Circunferência: <?=$pd->circunference;?> / Radio: <?=$pd->radius;?></h5>

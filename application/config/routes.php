@@ -58,11 +58,14 @@ $route['translate_uri_dashes'] = FALSE;
 // installation 
 $route['installation'] = 'installationController';
 $route['contact-installation'] = 'installationController/contact';
+$route['service-installation'] = 'installationController/service';
+
 // irrigation 
 $route['irrigation'] = 'irrigationController';
 $route['add-irrigation-product'] = 'irrigationController/call_add_product';
 $route['create-irrigation-product'] = 'irrigationController/create_product';
 $route['contact-irrigation'] = 'irrigationController/contact';
+$route['service-irrigation'] = 'irrigationController/service';
 
 
 // refrigeration 

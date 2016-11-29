@@ -5,11 +5,28 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   <link rel="stylesheet" href="<?=base_url('assets/css/bootstrap.min.css');?>">
+  <link rel="stylesheet" href="<?=base_url("assets/css/animate.css");?>">
   <script src="<?=base_url('assets/js/jquery.js');?>"></script>
   <script src="<?=base_url('assets/js/bootstrap.min.js');?>"></script>
+  <script src="<?=base_url('assets/js/utilitarios.js');?>"></script>
+  <script src="<?=base_url('assets/wow/dist/wow.min.js');?>"></script>
+  <script>
+   new WOW().init();
+  </script>
   <style>
+
+    .divInf{
+    margin-top:50px;  
+    border-top-width: 3px; 
+    border-top-style: solid; 
+    border-top-color:#e6e6e6;
+    
+    }
     /* Remove the navbar's default margin-bottom and rounded borders */
     .navbar {
       font-family: 'Ubuntu Condensed', sans-serif;
@@ -23,30 +40,30 @@
     .row.content {height: 1150px}
     
     /* Set gray background color and 100% height */
-    .sidenav {
-      padding-top: 20px;
-      background-color: #e6e6e6;
-      height: 100%;
-    }
+  
     
     /* Set black background color, white text and some padding */
     footer {
       background-color: #555;
       color: white;
       padding: 15px;
+      margin-top:20px; 
     }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;}
+    html, body{
+    height:100%; /* aqui definimos que o html e o body terão altura de 100% */
     }
+
+    header{
+       
+        background: url(http://localhost/lummen/assets/files/img/ferramenta_header.jpg) no-repeat center top fixed;
+        background-size:100% 100%;
+        width:100%; height:auto; min-height:100%; /*aqui faz o header o cupar toda a altura da tela*/
+        position: relative; 
+    }
+
   </style>
 </head>
-<body  style="font-family: 'Ubuntu Condensed', sans-serif;">
+<body  style=" background: url(http://localhost/lummen/assets/files/img/ferramentas_bckg.jpg) no-repeat center top fixed;  font-family: 'Ubuntu Condensed', sans-serif;">
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
@@ -61,7 +78,7 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Instalação</a></li>
-        <li><a href="#">Serviços</a></li>
+        <li><a href="<?=base_url('service-installation');?>">Serviços</a></li>
         <li><a href="<?=base_url('contact-installation');?>">Contatos</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -70,17 +87,26 @@
     </div>
   </div>
 </nav>
-  
+
+<header>
+         <div class="container-fluid"> 
+            <div class="row">
+                <div  style="margin-top:200px;" class="col-md-12 text-center">
+                  <h1  style="color: white;">Bem vindo</h1>
+                </div>
+                <div  class="col-md-12 text-center">
+                   <marquee behavior="slide" direction="up">
+                     <h1 align="center" style="font-size: 50px; color: white;">A Area de Instalação</h1>
+                    </marquee>     
+                </div>
+            </div>
+         </div>
+</header>
+
 <div class="container-fluid text-center">
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-      <p><a href="<?=base_url('refrigeration');?>">Refrigeração</a></p>
-      <p><a href="<?=base_url('irrigation');?>">Irrigação</a></p>
-    </div>
-    <div id="contents" class="col-sm-8 text-left">
+    <div id="contents" style="background-color: white;" class=" col-sm-offset-2 col-sm-8 text-left">
       <?php echo $contents ?>
     </div>
-  </div>
 </div>
 
 <footer class="container-fluid text-center">

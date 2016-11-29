@@ -27,4 +27,9 @@ class installationController extends CI_Controller {
 	{
 		$this->template->load('template/installationTemplate','contact');
 	}
+
+	public function service()
+	{
+		$this->template->load('template/installationTemplate','installation/service');
+	}
 }

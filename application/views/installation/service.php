@@ -13,7 +13,7 @@
   <div class="col-md-12">
     <h1 style="margin-top:20px">Serviços</h1>
    <div id="empty"></div>
-     <div  class="col-md-12" style="background-color:#ccddff; margin-top: 50px;">
+     <div  class="col-md-12" style="background-color:#e6e6e6; margin-top: 50px;">
       <div  style="margin-top:20px" class="col-md-12 text-center">
        <h2>Instalação</h2>
        <h5>
@@ -50,7 +50,7 @@
       </div>
     </div>
 
-     <div  style="background-color:#ccddff; margin-top: 50px;" class="col-md-12 text-center">
+     <div  style="background-color:#e6e6e6; margin-top: 50px;" class="col-md-12 text-center">
       <div style="margin-top:20px"  class="col-md-12 tex-center">
         <h2>Vendas.</h2>
       </div>

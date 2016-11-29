@@ -12,7 +12,7 @@
       <div  style="margin-top:100px" class="col-md-8 tex-center">
         <h2><i>Proprietario:</i> Luis Fabrício De Llamas</h2>
       </div>
-       <div  style="margin-top:100px; border-top-width: 3px;  border-top-style: solid; border-top-color: #555;" class="col-md-8 tex-center">
+       <div  style="margin-top:100px;" class="col-md-8 tex-center divInf">
           <div class="col-md-4">
             <h2>Meios de contato da Empresa:</h2>
           </div> 
@@ -23,7 +23,7 @@
           </div>
           
       </div>
-      <div  style="margin-top:100px; border-top-width: 3px;  border-top-style: solid; border-top-color: #555;" class="col-md-offset-3 col-md-8 tex-center">
+      <div  style="margin-top:100px;" class="col-md-offset-3 col-md-8 tex-center divInf">
           <div class="col-md-4">
             <h2>Local da Empresa:</h2>
           </div> 
